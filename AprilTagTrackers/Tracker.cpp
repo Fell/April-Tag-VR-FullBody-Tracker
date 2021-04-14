@@ -21,6 +21,9 @@
 #include <tagStandard41h12.h>
 #include <tagCircle21h7.h>
 
+#include <Kinect.h>
+#include "Kinect2Exposure/KinectExposure.h"
+
 #include "Connection.h"
 #include "GUI.h"
 #include "Helpers.h"
@@ -235,14 +238,25 @@ void Tracker::StartCamera(std::string id, int apiPreference)
     if (id.length() <= 2)		//if camera address is a single character, try to open webcam
     {
         int i = std::stoi(id);	//convert to int
-        cap = cv::VideoCapture(i, apiPreference);
-
+        if (i == -1)
+        {            
+            cameraRunning = true;
+            cameraThread = std::thread(&Tracker::KinectLoop, this);
+            cameraThread.detach();
+            return;
+        }
+        else
+        {
+            cap = cv::VideoCapture(i, apiPreference);
+        }
     }
     else
     {			//if address is longer, we try to open it as an ip address
         cap = cv::VideoCapture(id, apiPreference);
     }
 
+    cap.set(cv::CAP_OPENNI_IMAGE_GENERATOR_OUTPUT_MODE, cv::CAP_OPENNI_VGA_30HZ);
+    
     if (!cap.isOpened())
     {
         wxMessageDialog dial(NULL,
@@ -269,7 +283,7 @@ void Tracker::StartCamera(std::string id, int apiPreference)
         cap.set(cv::CAP_PROP_EXPOSURE, parameters->cameraExposure);
         cap.set(cv::CAP_PROP_GAIN, parameters->cameraGain);
     }
-    
+
     cameraRunning = true;
     cameraThread = std::thread(&Tracker::CameraLoop, this);
     cameraThread.detach();
@@ -311,6 +325,8 @@ void Tracker::CameraLoop()
         {
             cv::rotate(img, img, rotateFlag);
         }
+        //cv::flip(img, img, +1);
+
         if (previewCamera || previewCameraCalibration)
         {
             if (previewCameraCalibration)
@@ -341,6 +357,192 @@ void Tracker::CameraLoop()
             }
             imageReady = true;
         }
+    }
+    cv::destroyAllWindows();
+    cap.release();
+}
+
+IKinectSensor* _kinectSensor = nullptr;
+IColorFrameSource* _colorFrameSource = nullptr;
+IColorFrameReader* _colorFrameReader = nullptr;
+RGBQUAD* _colorRGBX = new RGBQUAD[1920 * 1080];
+// Safe release for interfaces
+template<class Interface>
+inline void SafeRelease(Interface*& pInterfaceToRelease)
+{
+    if (pInterfaceToRelease != NULL)
+    {
+        pInterfaceToRelease->Release();
+        pInterfaceToRelease = NULL;
+    }
+}
+
+
+HRESULT InitializeDefaultSensor()
+{
+    HRESULT hr;
+
+    hr = GetDefaultKinectSensor(&_kinectSensor);
+    if (FAILED(hr))
+    {
+        return hr;
+    }
+
+    if (_kinectSensor)
+    {
+        // Initialize the Kinect and get the color reader
+        IColorFrameSource* pColorFrameSource = NULL;
+
+        hr = _kinectSensor->Open();
+
+        if (SUCCEEDED(hr))
+        {
+            hr = _kinectSensor->get_ColorFrameSource(&pColorFrameSource);
+        }
+
+        if (SUCCEEDED(hr))
+        {
+            hr = pColorFrameSource->OpenReader(&_colorFrameReader);
+        }
+
+        SafeRelease(pColorFrameSource);
+    }
+
+    if (!_kinectSensor || FAILED(hr))
+    {
+        //SetStatusMessage(L"No ready Kinect found!", 10000, true);
+        return E_FAIL;
+    }
+
+    return hr;
+}
+
+
+void Tracker::KinectLoop()
+{
+    InitializeDefaultSensor();
+
+    bool exposureSet = false;
+    cv::Mat img;
+    cv::Mat drawImg;
+    while (cameraRunning)
+    {
+        Sleep(1);
+        int rows, cols, type;
+        void* data;
+        unsigned int size;
+
+        {
+            if (!_colorFrameReader)
+                continue;
+            
+            IColorFrame* pColorFrame = NULL;
+            HRESULT hr = _colorFrameReader->AcquireLatestFrame(&pColorFrame);
+
+            if (pColorFrame != NULL)
+            {
+                INT64 nTime = 0;
+                IFrameDescription* pFrameDescription = NULL;
+                ColorImageFormat imageFormat = ColorImageFormat_None;
+
+                hr = pColorFrame->get_RelativeTime(&nTime);
+
+                if (SUCCEEDED(hr))
+                {
+                    hr = pColorFrame->get_FrameDescription(&pFrameDescription);
+                }
+
+                if (SUCCEEDED(hr))
+                {
+                    hr = pFrameDescription->get_Width(&cols);
+                }
+
+                if (SUCCEEDED(hr))
+                {
+                    hr = pFrameDescription->get_Height(&rows);
+                }
+
+                if (SUCCEEDED(hr))
+                {
+                    hr = pColorFrame->get_RawColorImageFormat(&imageFormat);
+                }
+
+                if (SUCCEEDED(hr))
+                {
+                    if (imageFormat == ColorImageFormat_Bgra)
+                    {
+                        hr = pColorFrame->AccessRawUnderlyingBuffer(&size, reinterpret_cast<BYTE**>(&data));
+                    }
+                    else if (_colorRGBX)
+                    {
+                        data = _colorRGBX;
+                        size = 1920 * 1080 * sizeof(RGBQUAD);
+                        hr = pColorFrame->CopyConvertedFrameDataToArray(size, reinterpret_cast<BYTE*>(_colorRGBX), ColorImageFormat_Bgra);
+                    }
+                        
+                }
+
+                SafeRelease(pFrameDescription);
+                SafeRelease(pColorFrame);
+                
+                if (SUCCEEDED(hr))
+                    img = cv::Mat(rows, cols, CV_8UC4, data);
+
+                cv::flip(img, img, 1);
+                cv::cvtColor(img, img, cv::COLOR_BGRA2BGR);
+
+                if (previewCamera || previewCameraCalibration)
+                {
+                    if (previewCameraCalibration)
+                    {
+                        img.copyTo(drawImg);
+                        previewCalibration(drawImg, parameters);
+                        cv::imshow("Preview", drawImg);
+                        cv::waitKey(1);
+                    }
+                    else
+                    {
+                        cv::imshow("Preview", img);
+                        cv::waitKey(1);
+                    }
+                }
+                else
+                {
+                    cv::destroyWindow("Preview");
+                }
+                {
+                    std::lock_guard<std::mutex> lock(cameraImageMutex);
+                    // Swap avoids copying the pixel buffer. It only swaps pointers and metadata.
+                    // The pixel buffer from cameraImage can be reused if the size and format matches.
+                    cv::swap(img, cameraImage);
+                    if (img.size() != cameraImage.size() || img.flags != cameraImage.flags)
+                    {
+                        img.release();
+                    }
+                    imageReady = true;
+                }
+
+                // Attempt to set exposure after first frame has arrived
+                if (!exposureSet)
+                {
+                    KinectExposure kinectExposure;
+                    kinectExposure.SetManualExposure(2.0f, FLT_MAX);
+                    exposureSet = true;
+                }
+            }
+/*
+            if (!SUCCEEDED(hr))
+            {
+                wxMessageDialog dial(NULL,
+                    wxT("Kinect error"), wxT("Error"), wxOK | wxICON_ERROR);
+                dial.ShowModal();
+                cameraRunning = false;
+                break;
+            }
+*/
+            
+        }
+        last_frame_time = clock();        
     }
     cv::destroyAllWindows();
     cap.release();
@@ -463,7 +665,7 @@ void Tracker::CalibrateCameraCharuco()
             allCharucoCorners,
             allCharucoIds);
 
-        cv::resize(drawImg, outImg, cv::Size(cols, rows));
+        cv::resize(drawImg, outImg, cv::Size(960, 540));
         cv::imshow("out", outImg);
         char key = (char)cv::waitKey(1);
 
@@ -498,7 +700,7 @@ void Tracker::CalibrateCameraCharuco()
                     allCharucoIds.push_back(charucoIds);
                     picsTaken++;
 
-                    cv::resize(drawImg, outImg, cv::Size(cols, rows));
+                    cv::resize(drawImg, outImg, cv::Size(960, 540));
                     cv::imshow("out", outImg);
                     char key = (char)cv::waitKey(1);
 
@@ -613,7 +815,7 @@ void Tracker::CalibrateCamera()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(image, drawImg, cv::Size(cols,rows));
+        cv::resize(image, drawImg, cv::Size(960,540));
         cv::imshow("out", drawImg);
         char key = (char)cv::waitKey(1);
         framesSinceLast++;
@@ -637,7 +839,7 @@ void Tracker::CalibrateCamera()
                 imgpoints.push_back(corner_pts);
             }
 
-            cv::resize(image, drawImg, cv::Size(cols, rows));
+            cv::resize(image, drawImg, cv::Size(960, 540));
             cv::imshow("out", drawImg);
             cv::waitKey(1000);
         }
@@ -766,15 +968,18 @@ void Tracker::CalibrateTracker()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
+    td->nthreads = 12;
     apriltag_family_t* tf;
     if(!parameters->circularMarkers)
         tf = tagStandard41h12_create();
     else
         tf = tagCircle21h7_create();
     apriltag_detector_add_family(td, tf);
+    
 
     int markersPerTracker = 45;
     int trackerNum = parameters->trackerNum;
+    int offset = 0;
 
     std::vector<cv::Vec3d> boardRvec, boardTvec;
 
@@ -782,7 +987,7 @@ void Tracker::CalibrateTracker()
     {
         std::vector<int > curBoardIds;
         std::vector < std::vector<cv::Point3f >> curBoardCorners;
-        curBoardIds.push_back(i * markersPerTracker);
+        curBoardIds.push_back((i+offset) * markersPerTracker);
         curBoardCorners.push_back(modelMarker);
         boardIds.push_back(curBoardIds);
         boardCorners.push_back(curBoardCorners);
@@ -812,7 +1017,7 @@ void Tracker::CalibrateTracker()
         //cv::aruco::detectMarkers(image, dictionary, corners, ids, params);
         detectMarkersApriltag(image, &corners, &ids, &centers, td);
 
-        cv::aruco::drawDetectedMarkers(image, corners, cv::noArray(), cv::Scalar(255, 0, 0));
+        cv::aruco::drawDetectedMarkers(image, corners, ids, cv::Scalar(255, 0, 0));
 
         //estimate pose of our markers
         std::vector<cv::Vec3d> rvecs, tvecs;
@@ -863,7 +1068,7 @@ void Tracker::CalibrateTracker()
 
             for (int j = 0; j < ids.size(); j++)
             {
-                if (ids[j] >= i * markersPerTracker && ids[j] < (i + 1) * markersPerTracker)
+                if (ids[j] >= (i+offset) * markersPerTracker && ids[j] < (i+offset+1) * markersPerTracker)
                 {
                     bool markerInBoard = false;
                     for (int k = 0; k < boardIds[i].size(); k++)
@@ -937,8 +1142,8 @@ void Tracker::CalibrateTracker()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(image, drawImg, cv::Size(cols, rows));
-        cv::imshow("out", drawImg);
+        cv::resize(image, drawImg, cv::Size(960, 540));
+        cv::imshow("out", image);
         cv::waitKey(1);
     }
     trackers.clear();
@@ -981,7 +1186,7 @@ void Tracker::MainLoop()
     std::vector<double> prevLocValuesX;
 
     int trackerNum = parameters->trackerNum;
-
+    int offset = 0;
     int numOfPrevValues = parameters->numOfPrevValues;
 
     for (int k = 0; k < trackerNum; k++)
@@ -1022,6 +1227,7 @@ void Tracker::MainLoop()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
+    td->nthreads = 12;
     apriltag_family_t* tf;
     if (!parameters->circularMarkers)
         tf = tagStandard41h12_create();
@@ -1142,7 +1348,7 @@ void Tracker::MainLoop()
 
         for (int i = 0; i < centers.size(); i++)
         {
-            int tracker = ids[i] / 45;
+            int tracker = (ids[i]-offset) / 45;
 
             int limit = trackerNum;
 
@@ -1222,6 +1428,8 @@ void Tracker::MainLoop()
             boardRvec[i][1] = posValues[4];
             boardRvec[i][2] = posValues[5];
 
+            cv::aruco::drawAxis(drawImg, parameters->camMat, parameters->distCoeffs, boardRvec[i], boardTvec[i], 0.1f);
+
             cv::Mat rpos = cv::Mat_<double>(4, 1);
 
             //transform boards position based on our calibration data
@@ -1300,7 +1508,7 @@ void Tracker::MainLoop()
         }
 
         if (ids.size() > 0)
-            cv::aruco::drawDetectedMarkers(drawImg, corners, ids);
+            cv::aruco::drawDetectedMarkers(drawImg, corners, ids, cv::Scalar(255,255,255));
 
         end = clock();
         double frameTime = double(end - start) / double(CLOCKS_PER_SEC);
@@ -1316,8 +1524,8 @@ void Tracker::MainLoop()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(drawImg, drawImg, cv::Size(cols, rows));
-        cv::putText(drawImg, std::to_string(frameTime).substr(0,5), cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+        cv::resize(drawImg, drawImg, cv::Size(960, 540));
+        cv::putText(drawImg, std::to_string(1/frameTime).substr(0,5), cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
         cv::imshow("out", drawImg);
         cv::waitKey(1);
         //time of marker detection

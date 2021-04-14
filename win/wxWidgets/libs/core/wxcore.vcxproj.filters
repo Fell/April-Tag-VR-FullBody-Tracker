@@ -1,0 +1,2298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\accelcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\accesscmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\anidecod.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\affinematrix2d.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\appcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\artprov.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\artstd.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\arttango.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\bmpbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\bmpbtncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\bookctrl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\btncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\cairo.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\checkboxcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\checklstcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\choiccmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\clipcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\clrpickercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\colourcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\colourdata.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\combocmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\cmdproc.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\cmndata.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\containr.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\cshelp.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\ctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\ctrlsub.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dcbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dcbufcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dcgraph.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dcsvg.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dirctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dlgcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dndcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dobjcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\docmdi.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\docview.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dpycmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\dseldlg.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\effects.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fddlgcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\filectrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\filehistorycmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\filepickercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontpickercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fldlgcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontdata.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\graphicc.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontenumcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontmap.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fontutilcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\framecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\gaugecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\gbsizer.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\gdicmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\geometry.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\gifdecod.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\graphcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\headercolcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\headerctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\helpbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\iconbndl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagall.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagbmp.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\image.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagfill.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imaggif.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagiff.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagjpeg.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagpcx.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagpng.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagpnm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagtga.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagtiff.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\imagxpm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\layout.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\lboxcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\listctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\markupparser.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\matrix.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\menucmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\modalhook.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\mousemanager.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\nbkbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\overlaycmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\ownerdrwcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\paper.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\panelcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\persist.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\pickerbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\popupcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\preferencescmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\prntbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\quantize.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\radiobtncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\radiocmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\rearrangectrl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\rendcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\rgncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\scrolbarcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\settcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\sizer.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\slidercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\spinbtncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\spinctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\srchcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\statbar.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\statbmpcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\statboxcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\statlinecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\stattextcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\stockitem.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\tbarbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\textcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\textentrycmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\textmeasurecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\toplvcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\treebase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\uiactioncmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\valgen.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\validate.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\valtext.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\valnum.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\wincmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\windowid.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\wrapsizer.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\xpmdecod.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\busyinfo.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\buttonbar.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\choicdgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\choicbkg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\collheaderctrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\combog.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\dcpsg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\dirctrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\dragimgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\filectrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\headerctrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\infobar.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\listbkg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\logg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\markuptext.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\msgdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\numdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\progdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\preferencesg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\printps.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\renderg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\richmsgdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\scrlwing.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\selstore.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\spinctlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\splitter.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\srchctlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\statbmpg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\stattextg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\textdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\tipwin.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\toolbkg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\treectlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\treebkg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\vlbox.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\vscroll.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\xrc\xmlreshandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\bmpcboxcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\grideditors.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\gridctrl.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\grid.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\hyperlinkg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\calctrlcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\notifmsgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\odcombo.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\splash.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\gridcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\addremovectrl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\tipdlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\aboutdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\gridsel.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\sashwin.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\helpext.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\richtooltipg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\bmpcboxg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\timectrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\notifmsgcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\commandlinkbuttong.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\propdlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\treelist.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\datavcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\animatecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\odcombocmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\hyperlnkcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\richtooltipcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\datectlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\bannerwindow.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\laywin.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\calctrlg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\wizard.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\editlbox.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\datavgen.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\rowheightcache.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\animateg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\event.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fs_mem.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\msgout.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\utilscmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\main.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\volume.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\activex.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\app.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\bitmap.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\brush.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\caret.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\clipbrd.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\colour.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\cursor.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\data.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dc.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dcclient.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dcmemory.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dcprint.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dcscreen.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dialup.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dib.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\display.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\enhmeta.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\font.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\fontenum.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\fontutil.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\gdiimage.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\gdiobj.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\gdiplus.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\graphics.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\graphicsd2d.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\icon.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\imaglist.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\minifram.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\nonownedwnd.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\comimpl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\dataobj.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\dropsrc.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\droptgt.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\oleutils.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\safearray.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\palette.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\pen.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\popupwin.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\printdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\printwin.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\region.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\renderer.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\rt\utilsrt.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\settings.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\textmeasure.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\tooltip.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\toplevel.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\uiaction.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\utilsgui.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\utilswin.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\uxtheme.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\window.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\joystick.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\rt\notifmsgrt.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\aboutdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\sound.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\uuid.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\helpchm.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\taskbarcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\helpwin.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\notifmsg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\automtn.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\taskbar.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\richtooltip.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\evtloop.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ole\access.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\clrpickerg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\collpaneg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\filepickerg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\fontpickerg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\statusbr.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\prntdlgg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\accel.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\anybutton.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\appprogress.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\artmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\bmpbuttn.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\button.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\checkbox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\choice.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\colordlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\combo.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\combobox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\control.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\customdraw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dialog.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dirdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\dragimag.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\filedlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\frame.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\gauge.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\headerctrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\iniconf.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\listbox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\listctrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\mdi.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\menu.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\menuitem.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\metafile.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\msgdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\nativdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\nativewin.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\notebook.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\ownerdrw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\progdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\radiobox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\radiobut.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\richmsgdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\scrolbar.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\slider.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\spinbutt.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\spinctrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\statbmp.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\statbox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\statusbar.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\statline.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\stattext.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\systhemectrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\taskbarbutton.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\toolbar.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\textctrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\textentry.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\tglbtn.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\treectrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\bmpcbox.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\datectrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\calctrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\datecontrols.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\timectrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\commandlinkbutton.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\datetimectrl.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\hyperlink.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\generic\activityindicator.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\checklst.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\fdrepdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\fontdlg.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\affinematrix2dbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\affinematrix2d.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\anybutton.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\bmpbuttn.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\brush.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\button.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\checkbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\checklst.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\choicdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\choice.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\cmndata.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\collheaderctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\collpane.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\combo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\combobox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\compositewin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\control.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\ctrlsub.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\cursor.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\custombgwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcclient.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcgraph.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcmemory.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcprint.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcscreen.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcsvg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dialog.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dirdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dragimag.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\encinfo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\filedlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\frame.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\gauge.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\gbsizer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\gdicmn.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\accel.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\buttonbar.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\choicdgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\collheaderctrl.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\combo.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\custombgwin.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dcpsg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dirctrlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dragimgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\filectrlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\headerctrlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\infobar.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\logg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\msgdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\numdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\notebook.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\panelg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\prntdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\printps.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\progdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\richmsgdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\scrolwin.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\spinctlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\splitter.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\srchctlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\statbmpg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\stattextg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\textdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\treectlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\graphics.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\headercol.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\headerctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\helphtml.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\icon.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\infobar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\itemid.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\layout.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\listbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\mdi.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\menu.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\modalhook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\mousemanager.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msgdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\nativewin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\numdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\overlay.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\palette.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\panel.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\pen.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\peninfobase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\position.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\preferences.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\radiobox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\radiobut.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\range.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\rearrangectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\renderer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richmsgdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\scrolbar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\scrolwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\selstore.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\settings.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sizer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\slider.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\statbmp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\statbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\stattext.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\statusbr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\systhemectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\taskbarbutton.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\testing.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\textcompleter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\textctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\textdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\textentry.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\textwrapper.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\toolbar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\validate.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\valtext.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\valnum.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\window.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\windowid.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\windowptr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\withimages.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\wrapsizer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\wupdlock.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\accel.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\access.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\anidecod.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\animdecod.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\appprogress.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\artprov.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\bitmap.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\bookctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\busyinfo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\busyinfo.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\caret.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\choicebk.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\clipbrd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\clrpicker.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\cmdproc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\colordlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\colour.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\colourdata.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\cshelp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dataobj.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcmirror.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcps.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dialup.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dirctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\display.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dnd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\docmdi.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\docview.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\effects.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fdrepdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\filectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\filehistory.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\filepicker.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fontpicker.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fmappriv.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\font.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fontdata.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fontdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fontenum.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fontutil.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\gdiobj.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\geometry.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\gifdecod.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\help.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\helpbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\helpwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\iconbndl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagbmp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\image.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imaggif.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagiff.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagjpeg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imaglist.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagpcx.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagpng.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagpnm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagtga.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagtiff.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\imagxpm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\itemattr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\listbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\listbook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\listctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\matrix.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\menuitem.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\metafile.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\minifram.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\nonownedwnd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\notebook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\ownerdrw.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\paper.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\bookctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\dataview.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\splitter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\toplevel.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\treebook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\persist\window.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\pickerbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\popupwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\print.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\printdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\prntbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\progdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\quantize.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\rawbmp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\region.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\scopeguard.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\simplebook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\spinbutt.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\spinctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\splitter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\srchctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\statline.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\tbarbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\tglbtn.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\tipwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\toolbook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\tooltip.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\toplevel.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\treebase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\treebook.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\treectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\uiaction.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\valgen.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\vidmode.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\vlbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\vms_x_fix.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\vscroll.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\xpmdecod.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\xpmhand.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\xrc\xmlreshandler.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\splash.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dateevt.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\editlbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\hyperlink.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\joystick.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dcbuffer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\timectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\hyperlink.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\bmpcbox.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\addremovectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\gridctrl.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\notifmsg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\odcombo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\animate.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sashwin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\propdlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\tipdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dataview.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\helpext.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\grid.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\grid.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\grideditors.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\wizard.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dataview.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\wizard.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dvrenderers.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\bmpcbox.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\datetimectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\activityindicator.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\bannerwindow.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\dvrenderers.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\datectrl.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\calctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\propdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\dvrenderer.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\timectrl.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\commandlinkbutton.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtooltip.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sound.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\aboutdlgg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\taskbar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\treelist.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\notifmsg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\datectrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\laywin.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\gridsel.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\aboutdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\laywin.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\splash.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\calctrlg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\sashwin.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\animate.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\nonownedwnd.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\activex.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\popupwin.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\uxtheme.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\htmlhelp.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\helpchm.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\sound.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\joystick.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\helpwin.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\taskbar.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\evtloop.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\clrpickerg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\collpaneg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\filepickerg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\fontpickerg.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\accel.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\anybutton.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\app.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\appprogress.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\bitmap.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\bmpbuttn.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\brush.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\button.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\caret.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\checkbox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\choice.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\clipbrd.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\colordlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\colour.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\combo.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\combobox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\control.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ctrlsub.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\cursor.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\custombgwin.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dc.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dcclient.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dcmemory.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dcprint.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dcscreen.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dialog.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dib.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dirdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\dragimag.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\enhmeta.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\filedlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\font.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\frame.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\gauge.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\gdiimage.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\headerctrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\icon.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\imaglist.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\iniconf.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\init.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\listbox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\listctrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\mdi.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\menu.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\menuitem.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\metafile.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\minifram.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\missing.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\msgdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\msvcrt.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\notebook.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\access.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\comimpl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\dataform.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\dataobj.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\dataobj2.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\dropsrc.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\droptgt.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\oleutils.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\safearray.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ownerdrw.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ownerdrawnbutton.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\palette.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\panel.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\pen.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\printdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\printwin.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\progdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\radiobox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\radiobut.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\region.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\rcdefs.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\richmsgdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\rt\utils.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\scrolbar.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\slider.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\spinbutt.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\spinctrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\statbmp.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\statbox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\statusbar.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\statline.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\stattext.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\taskbarbutton.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\toolbar.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\textctrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\textentry.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\tglbtn.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\tooltip.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\toplevel.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\treectrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\window.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\calctrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\bmpcbox.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\datectrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\commandlinkbutton.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\hyperlink.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\datetimectrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\timectrl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\generic\activityindicator.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\checklst.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\fdrepdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\fontdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\automtn.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\msw\ole\uuid.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\win\lib\vc_x64_lib\mswu\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\03d18543d28a72492060b6f4a7548fc9\wxcore_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\lib\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{916A4C8E-BBD1-32C4-8366-EDD3147CB038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{07F3BA9A-8D1C-3EAD-AAB9-A561FEFEC5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Sources">
+      <UniqueIdentifier>{EBC1DCF0-25BB-3E93-B068-E0519112FB4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Headers">
+      <UniqueIdentifier>{13B74605-F76A-3D95-B71E-BC95CE383ADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Sources">
+      <UniqueIdentifier>{9FF34E71-257B-3082-84E0-E1A0E348A225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Headers">
+      <UniqueIdentifier>{A047E391-FDCA-3D82-9EE9-27092B6E2D5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Sources">
+      <UniqueIdentifier>{DC2D4C78-79AD-3951-9EC7-CF50FE9E9A0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{B713D645-9CD7-32FC-BF95-A15104CC1421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5DEAF38-DB26-3417-B105-8BFD34CD0A19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

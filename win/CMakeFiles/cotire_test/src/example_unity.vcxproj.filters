@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\src\$(Configuration)\cotire\example_CXX_unity_0_0.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\src\$(Configuration)\cotire\example_CXX_unity_1_1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\src\$(Configuration)\cotire\example_CXX_unity_2_2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire_test\src\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire_test\src\example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\CMakeFiles\aa787a8d2263ff4896cab834e454dae0\example_CXX_unity_0_0.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\CMakeFiles\aa787a8d2263ff4896cab834e454dae0\example_CXX_unity_1_1.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\cotire_test\CMakeFiles\aa787a8d2263ff4896cab834e454dae0\example_CXX_unity_2_2.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire_test\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{12DE6524-04FC-3F25-B483-019886D30690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{60933215-4660-31EB-93A0-5051C888F299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CA7E7000-E003-36D5-B1E0-7376C9E1CF9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

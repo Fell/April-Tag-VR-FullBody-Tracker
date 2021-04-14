@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/git/April-Tag-VR-FullBody-Tracker/AprilTagTrackers/CMakeLists.txt
+D:/git/opencv/build/install/OpenCVConfig-version.cmake
+D:/git/opencv/build/install/OpenCVConfig.cmake
+D:/git/opencv/build/install/x64/vc16/lib/OpenCVConfig.cmake
+D:/git/opencv/build/install/x64/vc16/lib/OpenCVModules-release.cmake
+D:/git/opencv/build/install/x64/vc16/lib/OpenCVModules.cmake

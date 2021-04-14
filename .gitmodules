@@ -5,3 +5,6 @@
 [submodule "wxWidgets"]
 	path = wxWidgets
 	url = https://github.com/wxWidgets/wxWidgets.git
+[submodule "AprilTagTrackers/Kinect2Exposure"]
+	path = AprilTagTrackers/Kinect2Exposure
+	url = https://github.com/saulthu/Kinect2Exposure

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\fs_inet.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\ftp.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\http.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\protocol.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\sckaddr.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\sckfile.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\sckipc.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\sckstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\socket.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\common\url.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\sockmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\msw\urlmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\fs_inet.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\protocol\file.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\protocol\ftp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\protocol\http.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\protocol\log.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\protocol\protocol.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sckaddr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sckipc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\sckstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\socket.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\url.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\win\lib\vc_x64_lib\mswu\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\3ab8a6cbcfbc9de58ebeb4f622a0a406\wxnet_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\lib\net\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{916A4C8E-BBD1-32C4-8366-EDD3147CB038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{07F3BA9A-8D1C-3EAD-AAB9-A561FEFEC5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Sources">
+      <UniqueIdentifier>{EBC1DCF0-25BB-3E93-B068-E0519112FB4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Sources">
+      <UniqueIdentifier>{DC2D4C78-79AD-3951-9EC7-CF50FE9E9A0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{B713D645-9CD7-32FC-BF95-A15104CC1421}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

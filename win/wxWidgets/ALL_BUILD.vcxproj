@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4880D07-576B-3A2C-B75F-BC5D21E6336B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/April-Tag-VR-FullBody-Tracker/wxWidgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/April-Tag-VR-FullBody-Tracker -BD:/git/April-Tag-VR-FullBody-Tracker/win --check-stamp-file D:/git/April-Tag-VR-FullBody-Tracker/win/wxWidgets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckPrototypeDefinition.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\TestBigEndian.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\files.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\functions.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\init.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\install.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\main.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\options.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\policies.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.h.in;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\toolkit.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/April-Tag-VR-FullBody-Tracker/wxWidgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/April-Tag-VR-FullBody-Tracker -BD:/git/April-Tag-VR-FullBody-Tracker/win --check-stamp-file D:/git/April-Tag-VR-FullBody-Tracker/win/wxWidgets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckPrototypeDefinition.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\TestBigEndian.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\files.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\functions.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\init.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\install.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\main.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\options.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\policies.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.h.in;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\toolkit.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/April-Tag-VR-FullBody-Tracker/wxWidgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/April-Tag-VR-FullBody-Tracker -BD:/git/April-Tag-VR-FullBody-Tracker/win --check-stamp-file D:/git/April-Tag-VR-FullBody-Tracker/win/wxWidgets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckPrototypeDefinition.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\TestBigEndian.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\files.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\functions.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\init.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\install.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\main.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\options.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\policies.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.h.in;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\toolkit.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/April-Tag-VR-FullBody-Tracker/wxWidgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/April-Tag-VR-FullBody-Tracker -BD:/git/April-Tag-VR-FullBody-Tracker/win --check-stamp-file D:/git/April-Tag-VR-FullBody-Tracker/win/wxWidgets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckPrototypeDefinition.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\TestBigEndian.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\files.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\functions.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\init.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\install.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\main.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\options.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\policies.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\setup.h.in;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\toolkit.cmake;D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\ZERO_CHECK.vcxproj">
+      <Project>{F158BF11-9B75-3572-8D20-476B337647E9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\adv\wxadv.vcxproj">
+      <Project>{1F6BEF87-54FB-3377-94FB-C63EA3C61077}</Project>
+      <Name>wxadv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\aui\wxaui.vcxproj">
+      <Project>{4455F937-A357-3011-AB16-AD95BB8FB461}</Project>
+      <Name>wxaui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\base\wxbase.vcxproj">
+      <Project>{CE97EB50-BA5E-394F-9C6B-5907CA1876F0}</Project>
+      <Name>wxbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\core\wxcore.vcxproj">
+      <Project>{C934FD02-8528-3C5D-8021-2B7FB42BF76D}</Project>
+      <Name>wxcore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxexpat.vcxproj">
+      <Project>{204799D4-87E8-3130-A46F-3C1001714A23}</Project>
+      <Name>wxexpat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\gl\wxgl.vcxproj">
+      <Project>{0F02C724-5F81-3B38-A426-6B096936B331}</Project>
+      <Name>wxgl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\html\wxhtml.vcxproj">
+      <Project>{8230E0EB-2917-34D9-98FD-2B65FD8375FD}</Project>
+      <Name>wxhtml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxjpeg.vcxproj">
+      <Project>{9169A6A8-CA65-35FD-A355-FDFB47E91734}</Project>
+      <Name>wxjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\media\wxmedia.vcxproj">
+      <Project>{A216E678-E62A-398D-9248-4B3FEBCAC66D}</Project>
+      <Name>wxmedia</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\net\wxnet.vcxproj">
+      <Project>{FA867BB6-10A9-3D57-B381-8153424781C3}</Project>
+      <Name>wxnet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxpng.vcxproj">
+      <Project>{30543E6E-B49D-39DB-B157-1F03E709D4C4}</Project>
+      <Name>wxpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\propgrid\wxpropgrid.vcxproj">
+      <Project>{C4AF8174-6A7B-3D7B-8D43-DF587AAFC4DE}</Project>
+      <Name>wxpropgrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\qa\wxqa.vcxproj">
+      <Project>{A68FB5C4-64F9-3504-B616-A21900B164E6}</Project>
+      <Name>wxqa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\utils\wxrc.vcxproj">
+      <Project>{59ADB174-2207-35AE-B8CF-5B15E5E5AF6C}</Project>
+      <Name>wxrc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxregex.vcxproj">
+      <Project>{D27501BB-56A6-3F20-A355-3C875D04C850}</Project>
+      <Name>wxregex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\ribbon\wxribbon.vcxproj">
+      <Project>{6DF34F3D-B80F-3188-9C87-464DBF9A6E4A}</Project>
+      <Name>wxribbon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\richtext\wxrichtext.vcxproj">
+      <Project>{8F8C888F-2224-399F-A536-1C02F2925D8C}</Project>
+      <Name>wxrichtext</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\stc\wxscintilla.vcxproj">
+      <Project>{564434F0-513F-3559-8BC1-14701C15B36D}</Project>
+      <Name>wxscintilla</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\stc\wxstc.vcxproj">
+      <Project>{343F03CF-B9AA-3A29-BC1B-1FE815012902}</Project>
+      <Name>wxstc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxtiff.vcxproj">
+      <Project>{3BED3F85-19EB-36E8-A673-9167B748CE77}</Project>
+      <Name>wxtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\webview\wxwebview.vcxproj">
+      <Project>{E1EAD74C-FD9A-3769-B160-E818FBBDC71A}</Project>
+      <Name>wxwebview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\xml\wxxml.vcxproj">
+      <Project>{C54C2A77-E995-35FB-99DC-01ACBAC0A67E}</Project>
+      <Name>wxxml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\xrc\wxxrc.vcxproj">
+      <Project>{98B15168-CA6E-3D71-A5F8-A9423556B5AA}</Project>
+      <Name>wxxrc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\April-Tag-VR-FullBody-Tracker\win\wxWidgets\libs\wxzlib.vcxproj">
+      <Project>{1F4D0270-652B-38EC-87C9-C3DF031D6560}</Project>
+      <Name>wxzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

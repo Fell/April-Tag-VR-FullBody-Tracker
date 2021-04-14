@@ -41,6 +41,7 @@ public:
 
 private:
     void CameraLoop();
+    void KinectLoop();
     void CopyFreshCameraImageTo(cv::Mat& image);
     void CalibrateCamera();
     void CalibrateCameraCharuco();

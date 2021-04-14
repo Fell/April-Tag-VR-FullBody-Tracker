@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AprilTagTrackers\Kinect2Exposure\KHelpers.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AprilTagTrackers\Kinect2Exposure\KinectExposure.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AprilTagTrackers\Kinect2Exposure\KinectRgbCommand.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AprilTagTrackers\Kinect2Exposure\NuiSensor.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AprilTagTrackers\Kinect2Exposure\ReinterpretBytes.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\MyApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\KHelpers.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\KinectExposure.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\KinectRgbCommand.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\Lockable.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\NuiSensor.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\NuiSensorLib.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AprilTagTrackers\Kinect2Exposure\ReinterpretBytes.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\AprilTagTrackers\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{463B0C34-FF6C-393B-B7FF-693F79A15993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5DEAF38-DB26-3417-B105-8BFD34CD0A19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect2Exposure">
+      <UniqueIdentifier>{9021b56d-af36-484f-ac93-c06c10af0fd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\arm\arm_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\arm\filter_neon_intrinsics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\arm\palette_neon_intrinsics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\intel\intel_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\png\intel\filter_sse2_intrinsics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5DEAF38-DB26-3417-B105-8BFD34CD0A19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

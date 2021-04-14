@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextformatdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtexthtml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextimagedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextstyledlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextstyles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextsymboldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\richtext\richtextxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\src\xrc\xh_richtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextbackgroundpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextborderspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextbuffer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextbulletspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextctrl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextdialogpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextfontpage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextformatdlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtexthtml.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextimagedlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextindentspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextliststylepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextmarginspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextprint.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextsizepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextstyledlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextstylepage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextstyles.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextsymboldlg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtexttabspage.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextuicustomization.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\richtext\richtextxml.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\include\wx\xrc\xh_richtext.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\April-Tag-VR-FullBody-Tracker\win\lib\vc_x64_lib\mswu\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\win\CMakeFiles\bdfa7d2b4ea382e37ce6fd8583dfe697\wxrichtext_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\lib\richtext\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{916A4C8E-BBD1-32C4-8366-EDD3147CB038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{07F3BA9A-8D1C-3EAD-AAB9-A561FEFEC5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{B713D645-9CD7-32FC-BF95-A15104CC1421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5DEAF38-DB26-3417-B105-8BFD34CD0A19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
