@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/win/AprilTagTrackers/Release/AprilTagTrackers.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/win/AprilTagTrackers/",
+            "cwd": "${workspaceFolder}/win/AprilTagTrackers/Release/",
             "environment": [],
             "console": "newExternalWindow",
             "preLaunchTask": "Release"
@@ -23,7 +23,7 @@
             "program": "${workspaceFolder}/win/AprilTagTrackers/RelWithDebInfo/AprilTagTrackers.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/win/AprilTagTrackers/",
+            "cwd": "${workspaceFolder}/win/AprilTagTrackers/RelWithDebInfo/",
             "environment": [],
             "console": "newExternalWindow",
             "preLaunchTask": "RelWithDebInfo"

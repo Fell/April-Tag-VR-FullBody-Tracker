@@ -1,4 +1,8 @@
-﻿#include <iostream>
+﻿#define KINECT
+constexpr int OFFSET = 3;
+constexpr int THREADS = 24;
+
+#include <iostream>
 #include <mutex>
 #include <random>
 #include <vector>
@@ -21,14 +25,18 @@
 #include <tagStandard41h12.h>
 #include <tagCircle21h7.h>
 
+#ifdef KINECT
 #include <Kinect.h>
 #include "Kinect2Exposure/KinectExposure.h"
+#endif 
 
 #include "Connection.h"
 #include "GUI.h"
 #include "Helpers.h"
 #include "Parameters.h"
 #include "Tracker.h"
+
+
 
 namespace {
 
@@ -238,6 +246,7 @@ void Tracker::StartCamera(std::string id, int apiPreference)
     if (id.length() <= 2)		//if camera address is a single character, try to open webcam
     {
         int i = std::stoi(id);	//convert to int
+#ifdef KINECT
         if (i == -1)
         {            
             cameraRunning = true;
@@ -246,6 +255,7 @@ void Tracker::StartCamera(std::string id, int apiPreference)
             return;
         }
         else
+#endif
         {
             cap = cv::VideoCapture(i, apiPreference);
         }
@@ -362,6 +372,7 @@ void Tracker::CameraLoop()
     cap.release();
 }
 
+#ifdef KINECT
 IKinectSensor* _kinectSensor = nullptr;
 IColorFrameSource* _colorFrameSource = nullptr;
 IColorFrameReader* _colorFrameReader = nullptr;
@@ -416,7 +427,6 @@ HRESULT InitializeDefaultSensor()
 
     return hr;
 }
-
 
 void Tracker::KinectLoop()
 {
@@ -547,6 +557,7 @@ void Tracker::KinectLoop()
     cv::destroyAllWindows();
     cap.release();
 }
+#endif
 
 void Tracker::CopyFreshCameraImageTo(cv::Mat& image)
 {
@@ -968,7 +979,7 @@ void Tracker::CalibrateTracker()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
-    td->nthreads = 12;
+    td->nthreads = THREADS;
     apriltag_family_t* tf;
     if(!parameters->circularMarkers)
         tf = tagStandard41h12_create();
@@ -979,7 +990,7 @@ void Tracker::CalibrateTracker()
 
     int markersPerTracker = 45;
     int trackerNum = parameters->trackerNum;
-    int offset = 0;
+    int offset = OFFSET;
 
     std::vector<cv::Vec3d> boardRvec, boardTvec;
 
@@ -1022,7 +1033,7 @@ void Tracker::CalibrateTracker()
         //estimate pose of our markers
         std::vector<cv::Vec3d> rvecs, tvecs;
         cv::aruco::estimatePoseSingleMarkers(corners, markerSize, parameters->camMat, parameters->distCoeffs, rvecs, tvecs);
-        /*
+        
         for (int i = 0; i < rvecs.size(); ++i) {
             //draw axis for each marker
             auto rvec = rvecs[i];	//rotation vector of our marker
@@ -1032,10 +1043,10 @@ void Tracker::CalibrateTracker()
 
             cv::aruco::drawAxis(image, parameters->camMat, parameters->distCoeffs, rvec, tvec, parameters->markerSize);
         }
-        */
+        
+
 
         float maxDist = parameters->trackerCalibDistance;
-
         for (int i = 0; i < boardIds.size(); i++)
         {
             cv::Ptr<cv::aruco::Board> arBoard = cv::aruco::Board::create(boardCorners[i], dictionary, boardIds[i]);
@@ -1130,6 +1141,7 @@ void Tracker::CalibrateTracker()
                 }
             }
         }
+
         cv::Mat drawImg;
         int cols, rows;
         if (image.cols > image.rows)
@@ -1143,7 +1155,7 @@ void Tracker::CalibrateTracker()
             rows = image.rows * drawImgSize / image.cols;
         }
         cv::resize(image, drawImg, cv::Size(960, 540));
-        cv::imshow("out", image);
+        cv::imshow("out", drawImg);
         cv::waitKey(1);
     }
     trackers.clear();
@@ -1186,7 +1198,7 @@ void Tracker::MainLoop()
     std::vector<double> prevLocValuesX;
 
     int trackerNum = parameters->trackerNum;
-    int offset = 0;
+    int offset = OFFSET;
     int numOfPrevValues = parameters->numOfPrevValues;
 
     for (int k = 0; k < trackerNum; k++)
@@ -1227,7 +1239,7 @@ void Tracker::MainLoop()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
-    td->nthreads = 12;
+    td->nthreads = THREADS;
     apriltag_family_t* tf;
     if (!parameters->circularMarkers)
         tf = tagStandard41h12_create();
@@ -1348,7 +1360,7 @@ void Tracker::MainLoop()
 
         for (int i = 0; i < centers.size(); i++)
         {
-            int tracker = (ids[i]-offset) / 45;
+            int tracker = (ids[i] / 45) - offset;
 
             int limit = trackerNum;
 
@@ -1360,7 +1372,7 @@ void Tracker::MainLoop()
                 limit--;
             }
 
-            if (tracker < limit)
+            if (tracker >= 0 && tracker < limit)
             {
                 while (tracker >= maskCenters.size())
                 {
@@ -1494,8 +1506,8 @@ void Tracker::MainLoop()
             prevRot[i] = q;
             prevLoc[i] = cv::Vec3d(a, b, c);
 
-            //cv::putText(drawImg, std::to_string(q.w) + ", " + std::to_string(q.x) + ", " + std::to_string(q.y) + ", " + std::to_string(q.z), cv::Point(10, 60), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
-            //cv::putText(drawImg, std::to_string(boardRvec[i][0]) + ", " + std::to_string(boardRvec[i][1]) + ", " + std::to_string(boardRvec[i][2]), cv::Point(10, 80), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+            cv::putText(drawImg, std::to_string(q.w) + ", " + std::to_string(q.x) + ", " + std::to_string(q.y) + ", " + std::to_string(q.z), cv::Point(10, 60), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+            cv::putText(drawImg, std::to_string(boardRvec[i][0]) + ", " + std::to_string(boardRvec[i][1]) + ", " + std::to_string(boardRvec[i][2]), cv::Point(10, 80), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
 
             end = clock();
             double frameTime = double(end - last_frame_time) / double(CLOCKS_PER_SEC);

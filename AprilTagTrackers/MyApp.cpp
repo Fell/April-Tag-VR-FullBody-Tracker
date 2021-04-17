@@ -21,7 +21,7 @@ bool MyApp::OnInit()
     conn = new Connection(params);
     tracker = new Tracker(params, conn);
 
-    gui = new GUI(wxT("AprilTag Trackers"),params);
+    gui = new GUI(wxT("AprilTag Trackers - Fell Edit"),params);
     gui->Show(true);
 
     gui->posHbox->Show(false);

@@ -5,3 +5,6 @@
 [submodule "wxWidgets"]
 	path = wxWidgets
 	url = https://github.com/wxWidgets/wxWidgets.git
+[submodule "apriltag_orig"]
+	path = apriltag_orig
+	url = https://github.com/AprilRobotics/apriltag.git

@@ -1,0 +1,891 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 09.04.2021 17:18:14.
+Project "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/3.19.6/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 09.04.2021 17:18:15.
+Project "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\3.19.6\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/3.19.6/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2bb61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bb61.dir\Debug\\" /Fd"cmTC_2bb61.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+  cmTC_2bb61.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_2bb61.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bbc88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bbc88.dir\Debug\\" /Fd"cmTC_bbc88.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_bbc88.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_bbc88.exe
+
+
+
+Determining if the include file d2d1.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4a8c0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a8c0.dir\Debug\\" /Fd"cmTC_4a8c0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_4a8c0.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_4a8c0.exe
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cb45e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  STDC_HEADERS.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb45e.dir\Debug\\" /Fd"cmTC_cb45e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c"
+  cmTC_cb45e.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_cb45e.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_VARIADIC_MACROS succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dfaf8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfaf8.dir\Debug\\" /Fd"cmTC_dfaf8.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.c"
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.c(6,5): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'int' [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_dfaf8.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.c(6,5): warning C4313: 'printf': '%p' in format string conflicts with argument 3 of type 'int' [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_dfaf8.vcxproj]
+  cmTC_dfaf8.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_dfaf8.exe
+
+
+Source file was:
+#include <stdio.h>
+
+
+int main(int argc, char* argv[]) {
+ #define test(fmt, ...) printf(fmt, __VA_ARGS__)
+    test("%s %d %p", "test", 1, 0);
+return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_STRING_COMPARE succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a5701.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_STRING_COMPARE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a5701.dir\Debug\\" /Fd"cmTC_a5701.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(7,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(8,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(9,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(10,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(11,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(12,16): warning C4834: discarding return value of function with 'nodiscard' attribute [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_a5701.vcxproj]
+  cmTC_a5701.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_a5701.exe
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::string foo, bar;
+    foo.compare(bar);
+    foo.compare(1, 1, bar);
+    foo.compare(1, 1, bar, 1, 1);
+    foo.compare("");
+    foo.compare(1, 1, "");
+    foo.compare(1, 1, "", 2);
+return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_WSTRING succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_392b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_WSTRING /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_392b8.dir\Debug\\" /Fd"cmTC_392b8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_392b8.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_392b8.exe
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ std::wstring s;
+return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_UNORDERED_MAP succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_424e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_UNORDERED_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_424e4.dir\Debug\\" /Fd"cmTC_424e4.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_424e4.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_424e4.exe
+
+
+Source file was:
+#include <unordered_map>
+#include <unordered_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::unordered_map<double*, char*> test1;
+    std::unordered_set<char*> test2;
+return 0; }
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_UINT succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_067c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D wxSIZE_T_IS_NOT_UINT /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_067c4.dir\Debug\\" /Fd"cmTC_067c4.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_067c4.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_067c4.exe
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned int); };
+
+            int bar() {
+return 0; }
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_ULONG succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f6ef1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D wxSIZE_T_IS_NOT_ULONG /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f6ef1.dir\Debug\\" /Fd"cmTC_f6ef1.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_f6ef1.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_f6ef1.exe
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+Performing C++ SOURCE FILE Test wxWCHAR_T_IS_REAL_TYPE succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5694c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D wxWCHAR_T_IS_REAL_TYPE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5694c.dir\Debug\\" /Fd"cmTC_5694c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_5694c.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_5694c.exe
+
+
+Source file was:
+#include <wchar.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(wchar_t);
+                         void foo(unsigned short);
+                         void foo(unsigned int);
+                         void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+Determining if the wcsftime exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1eeb5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1eeb5.dir\Debug\\" /Fd"cmTC_1eeb5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_1eeb5.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_1eeb5.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsftime
+  return ((int*)(&wcsftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wprintf exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bbdca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbdca.dir\Debug\\" /Fd"cmTC_bbdca.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_bbdca.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_bbdca.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wprintf
+  return ((int*)(&wprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fputws exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a8775.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8775.dir\Debug\\" /Fd"cmTC_a8775.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_a8775.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_a8775.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fputws
+  return ((int*)(&fputws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswprintf exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7e14a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e14a.dir\Debug\\" /Fd"cmTC_7e14a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_7e14a.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_7e14a.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswprintf
+  return ((int*)(&vswprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswscanf exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d7120.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7120.dir\Debug\\" /Fd"cmTC_d7120.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_d7120.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_d7120.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswscanf
+  return ((int*)(&vswscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_58627.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58627.dir\Debug\\" /Fd"cmTC_58627.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,19): warning C4996: 'wcsdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsdup. See online help for details. [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_58627.vcxproj]
+  cmTC_58627.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_58627.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fab2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fab2c.dir\Debug\\" /Fd"cmTC_fab2c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_fab2c.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_fab2c.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcstoull exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e8b63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8b63.dir\Debug\\" /Fd"cmTC_e8b63.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_e8b63.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_e8b63.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstoull
+  return ((int*)(&wcstoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2acc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2acc7.dir\Debug\\" /Fd"cmTC_2acc7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_2acc7.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_2acc7.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function strnlen exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_aab9a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strnlen /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aab9a.dir\Debug\\" /Fd"cmTC_aab9a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  cmTC_aab9a.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_aab9a.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0e022.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e022.dir\Debug\\" /Fd"cmTC_0e022.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  cmTC_0e022.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_0e022.exe
+
+
+
+Determining if the vsscanf exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4c744.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c744.dir\Debug\\" /Fd"cmTC_4c744.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_4c744.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_4c744.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f18e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f18e5.dir\Debug\\" /Fd"cmTC_f18e5.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  cmTC_f18e5.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_f18e5.exe
+
+
+File D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file type_traits exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1d501.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d501.dir\Debug\\" /Fd"cmTC_1d501.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_1d501.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_1d501.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_206a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_206a1.dir\Debug\\" /Fd"cmTC_206a1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_206a1.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_206a1.exe
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f126f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f126f.dir\Debug\\" /Fd"cmTC_f126f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_f126f.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_f126f.exe
+
+
+
+Performing C++ SOURCE FILE Test wxTEST_TZ__timezone succeeded with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fbdd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D wxTEST_TZ__timezone /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fbdd5.dir\Debug\\" /Fd"cmTC_fbdd5.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx"
+D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\src.cxx(7,18): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\cmTC_fbdd5.vcxproj]
+  cmTC_fbdd5.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_fbdd5.exe
+
+
+Source file was:
+#include <time.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            int tz;
+            tz = _timezone;
+return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_633a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_633a6.dir\Debug\\" /Fd"cmTC_633a6.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_633a6.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_633a6.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_228cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_228cc.dir\Debug\\" /Fd"cmTC_228cc.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_228cc.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_228cc.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8f084.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f084.dir\Debug\\" /Fd"cmTC_8f084.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_8f084.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_8f084.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9af0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIZE_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9af0f.dir\Debug\\" /Fd"cmTC_9af0f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  cmTC_9af0f.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_9af0f.exe
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d2a63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_WCHAR_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2a63.dir\Debug\\" /Fd"cmTC_d2a63.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c"
+  cmTC_d2a63.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_d2a63.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3dbb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_INT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dbb2.dir\Debug\\" /Fd"cmTC_3dbb2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  cmTC_3dbb2.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_3dbb2.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_11141.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11141.dir\Debug\\" /Fd"cmTC_11141.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  cmTC_11141.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_11141.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7e993.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e993.dir\Debug\\" /Fd"cmTC_7e993.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  cmTC_7e993.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_7e993.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_705a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_705a7.dir\Debug\\" /Fd"cmTC_705a7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  cmTC_705a7.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_705a7.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_feefa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feefa.dir\Debug\\" /Fd"cmTC_feefa.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_feefa.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_feefa.exe
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_70918.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  TestEndianess.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70918.dir\Debug\\" /Fd"cmTC_70918.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\TestEndianess.c"
+  cmTC_70918.vcxproj -> D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\CMakeTmp\Debug\cmTC_70918.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

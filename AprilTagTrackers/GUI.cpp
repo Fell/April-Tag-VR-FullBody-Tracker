@@ -68,6 +68,7 @@ CameraPage::CameraPage(wxNotebook* parent,GUI* parentGUI)
     //fgs->Add(parentGUI->cb2);
     //fgs->Add(new wxStaticText(this, -1, wxT("")), 0, wxEXPAND);
     fgs->Add(parentGUI->cb3);
+    fgs->Add(new wxStaticText(this, -1, wxT("Fell Edition\n24 Threads\nOffset 3\n50% Resize")), 0, wxEXPAND);
 
     hbox->Add(fgs, 1, wxALL | wxEXPAND, 15);
 

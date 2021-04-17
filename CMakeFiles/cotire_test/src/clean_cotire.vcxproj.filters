@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\cotire_test\CMakeFiles\9da57001159244d8cc82e55bf4f0311f\clean_cotire.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\April-Tag-VR-FullBody-Tracker\wxWidgets\build\cmake\modules\cotire_test\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\April-Tag-VR-FullBody-Tracker\CMakeFiles\cotire_test\src\CMakeFiles\clean_cotire" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5C70E0F-5826-3D4F-91DA-0D735A05D2CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

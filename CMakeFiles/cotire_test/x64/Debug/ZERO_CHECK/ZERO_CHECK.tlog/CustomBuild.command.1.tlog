@@ -1,0 +1,10 @@
+^D:\GIT\APRIL-TAG-VR-FULLBODY-TRACKER\CMAKEFILES\COTIRE_TEST\CMAKEFILES\658F52E40807793760EF644E37FD2546\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/April-Tag-VR-FullBody-Tracker/wxWidgets/build/cmake/modules/cotire_test -BD:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/cotire_test --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/git/April-Tag-VR-FullBody-Tracker/CMakeFiles/cotire_test/CotireExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
