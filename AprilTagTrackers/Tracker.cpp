@@ -388,12 +388,16 @@ inline void SafeRelease(Interface*& pInterfaceToRelease)
     }
 }
 
+typedef HRESULT(WINAPI *GetDefaultKinectSensorFunc)(_COM_Outptr_ IKinectSensor** defaultKinectSensor);
 
 HRESULT InitializeDefaultSensor()
 {
     HRESULT hr;
 
-    hr = GetDefaultKinectSensor(&_kinectSensor);
+    HMODULE hModule = LoadLibrary(TEXT("kinect20.dll"));
+    GetDefaultKinectSensorFunc FGetDefaultKinectSensor = (GetDefaultKinectSensorFunc)GetProcAddress(hModule, "GetDefaultKinectSensor");
+
+    hr = FGetDefaultKinectSensor(&_kinectSensor);
     if (FAILED(hr))
     {
         return hr;
