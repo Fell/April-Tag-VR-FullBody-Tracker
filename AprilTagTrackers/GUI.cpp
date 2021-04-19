@@ -19,6 +19,8 @@ void addTextWithTooltip(wxWindow* parent, wxSizer* sizer, const wxString& label,
 GUI::GUI(const wxString& title, Parameters * params)
     : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(350, 800))
 {
+    SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 16, 16));
+
     wxNotebook* nb = new wxNotebook(this, -1, wxPoint(-1, -1),
         wxSize(-1, -1), wxNB_TOP);
 
@@ -69,6 +71,9 @@ CameraPage::CameraPage(wxNotebook* parent,GUI* parentGUI)
     //fgs->Add(new wxStaticText(this, -1, wxT("")), 0, wxEXPAND);
     fgs->Add(parentGUI->cb3);
     fgs->Add(new wxStaticText(this, -1, wxT("Fell Edition\n24 Threads\nOffset 3\n50% Resize")), 0, wxEXPAND);
+    
+    auto* cb = new wxChoice(this, -1);
+    fgs->Add(cb, 0, wxSTRETCH_NOT);
 
     hbox->Add(fgs, 1, wxALL | wxEXPAND, 15);
 
@@ -139,7 +144,7 @@ ParamsPage::ParamsPage(wxNotebook* parent, Parameters* params)
     rotateClField->SetValue(parameters->rotateCl);
     rotateCounterClField->SetValue(parameters->rotateCounterCl);
     //circularField->SetValue(parameters->circularWindow);
-    //cameraSettingsField->SetValue(parameters->cameraSettings);
+    cameraSettingsField->SetValue(parameters->cameraSettings);
     chessboardCalibField->SetValue(parameters->chessboardCalib);
 
     wxBoxSizer* hbox = new wxBoxSizer(wxVERTICAL);

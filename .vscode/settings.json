@@ -1,5 +1,6 @@
 {
-    "C_Cpp.default.includePath": [
-        "C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"
-    ]
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "files.associations": {
+        "algorithm": "cpp"
+    }
 }

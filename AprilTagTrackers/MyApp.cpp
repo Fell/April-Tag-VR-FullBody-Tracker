@@ -4,6 +4,7 @@
 #include "MyApp.h"
 #include "Parameters.h"
 #include "Tracker.h"
+#include "resource.h"
 
 wxIMPLEMENT_APP(MyApp);
 

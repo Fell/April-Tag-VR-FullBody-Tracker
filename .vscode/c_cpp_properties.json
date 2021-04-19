@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "dep/opencv/include",
+                "dep/kinect",
+                "dep/wxwidgets/include/msvc",
+                "dep/wxwidgets/include",
+                "apriltag"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "cppStandard": "c++14",
+            "defines": [
+                "NDEBUG",
+                "_CRT_SECURE_NO_WARNINGS",
+                "__WXMSW__"
+            ]
+        }
+    ],
+    "version": 4
+}

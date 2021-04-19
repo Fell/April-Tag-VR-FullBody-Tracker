@@ -53,13 +53,17 @@
     <ClInclude Include="AprilTagTrackers\Kinect2Exposure\ReinterpretBytes.h">
       <Filter>Kinect2Exposure</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <ClInclude Include="AprilTagTrackers\resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Kinect2Exposure">
       <UniqueIdentifier>{3acff985-4d3c-472b-bbb3-b60769bd7010}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AprilTagTrackers\AprilTagTrackers.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AprilTagTrackers\AprilTagTrackers.rc" />
   </ItemGroup>
 </Project>
