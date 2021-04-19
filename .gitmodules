@@ -5,12 +5,3 @@
 [submodule "wxWidgets"]
 	path = wxWidgets
 	url = https://github.com/wxWidgets/wxWidgets.git
-[submodule "apriltag_orig"]
-	path = apriltag_orig
-	url = https://github.com/AprilRobotics/apriltag.git
-[submodule "opencv_contrib"]
-	path = opencv_contrib
-	url = https://github.com/opencv/opencv_contrib.git
-[submodule "opencv"]
-	path = opencv
-	url = https://github.com/opencv/opencv
