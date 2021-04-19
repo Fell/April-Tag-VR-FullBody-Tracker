@@ -28,5 +28,5 @@ private:
     CHAR chReadBuf[1024];
     BOOL fSuccess;
     DWORD cbRead;
-    LPTSTR lpszPipename = TEXT("\\\\.\\pipe\\ApriltagPipeIn");
+    LPCWSTR lpszPipename = TEXT("\\\\.\\pipe\\ApriltagPipeIn");
 };

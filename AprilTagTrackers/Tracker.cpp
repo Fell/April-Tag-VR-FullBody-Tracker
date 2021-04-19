@@ -443,7 +443,7 @@ void Tracker::KinectLoop()
     {
         Sleep(1);
         int rows, cols, type;
-        void* data;
+        void* data = nullptr;
         unsigned int size;
 
         {
@@ -1338,7 +1338,8 @@ void Tracker::MainLoop()
             wtranslation = getSpaceCalibEuler(calibRot, cv::Vec3d(0, 0, 0), calibPos(0), calibPos(1), calibPos(2));
             //wrotation = rodr2quat(calibRodr[0], calibRodr[1], calibRodr[2]);
             //wrotation = rodr2quat(boardRvec[i][0], boardRvec[i][1], boardRvec[i][2]).conjugate();
-            wrotation = mRot2Quat(eulerAnglesToRotationMatrix(cv::Vec3f(calibRot)));
+            auto calibRot3f = cv::Vec3f(calibRot);
+            wrotation = mRot2Quat(eulerAnglesToRotationMatrix(calibRot3f));
             /*
             teststr = std::to_string(wrotation.w) + " " + std::to_string(wrotation.x) + " " + std::to_string(wrotation.y) + " " + std::to_string(wrotation.z);
 

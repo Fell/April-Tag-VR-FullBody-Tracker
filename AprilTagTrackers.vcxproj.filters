@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AprilTagTrackers\Connection.cpp" />
+    <ClCompile Include="AprilTagTrackers\GUI.cpp" />
+    <ClCompile Include="AprilTagTrackers\Helpers.cpp" />
+    <ClCompile Include="AprilTagTrackers\MyApp.cpp" />
+    <ClCompile Include="AprilTagTrackers\Parameters.cpp" />
+    <ClCompile Include="AprilTagTrackers\Quaternion.cpp" />
+    <ClCompile Include="AprilTagTrackers\Tracker.cpp" />
+    <ClCompile Include="AprilTagTrackers\Kinect2Exposure\KHelpers.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="AprilTagTrackers\Kinect2Exposure\KinectExposure.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="AprilTagTrackers\Kinect2Exposure\KinectRgbCommand.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="AprilTagTrackers\Kinect2Exposure\NuiSensor.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+    <ClCompile Include="AprilTagTrackers\Kinect2Exposure\ReinterpretBytes.cpp">
+      <Filter>Kinect2Exposure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AprilTagTrackers\Connection.h" />
+    <ClInclude Include="AprilTagTrackers\GUI.h" />
+    <ClInclude Include="AprilTagTrackers\Helpers.h" />
+    <ClInclude Include="AprilTagTrackers\MyApp.h" />
+    <ClInclude Include="AprilTagTrackers\Parameters.h" />
+    <ClInclude Include="AprilTagTrackers\Quaternion.h" />
+    <ClInclude Include="AprilTagTrackers\Tracker.h" />
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\KHelpers.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\KinectExposure.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\KinectRgbCommand.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\Lockable.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\NuiSensor.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\NuiSensorLib.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+    <ClInclude Include="AprilTagTrackers\Kinect2Exposure\ReinterpretBytes.h">
+      <Filter>Kinect2Exposure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Kinect2Exposure">
+      <UniqueIdentifier>{3acff985-4d3c-472b-bbb3-b60769bd7010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
