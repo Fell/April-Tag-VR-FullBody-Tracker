@@ -46,16 +46,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>dep\opencv\include;dep\kinect;wxWidgets\include;wxWidgets\include\msvc;apriltag;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <LibraryPath>dep\wxwidgets\vc_x64_lib;dep\apriltag;dep\kinect;dep\opencv\x64\vc16\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>dep\opencv\include;dep\kinect;dep\wxwidgets\include;dep\wxwidgets\include\msvc;apriltag;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>dep\wxwidgets\lib\vc_x64_lib;dep\apriltag;dep\kinect;dep\opencv\x64\vc16\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
     <OutDir>$(ProjectDir)_bin\</OutDir>
     <IntDir>$(ProjectDir)_tmp\</IntDir>
     <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>dep\opencv\include;dep\kinect;wxWidgets\include;wxWidgets\include\msvc;apriltag;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <LibraryPath>dep\wxwidgets\vc_x64_lib;dep\apriltag;dep\kinect;dep\opencv\x64\vc16\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>dep\opencv\include;dep\kinect;dep\wxwidgets\include;dep\wxwidgets\include\msvc;apriltag;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>dep\wxwidgets\lib\vc_x64_lib;dep\apriltag;dep\kinect;dep\opencv\x64\vc16\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
     <OutDir>$(ProjectDir)_bin\</OutDir>
     <IntDir>$(ProjectDir)_tmp\</IntDir>
     <TargetName>$(ProjectName)</TargetName>
