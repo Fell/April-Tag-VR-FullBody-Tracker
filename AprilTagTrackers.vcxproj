@@ -58,7 +58,7 @@
     <LibraryPath>dep\wxwidgets\vc_x64_lib;dep\apriltag;dep\kinect;dep\opencv\x64\vc16\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
     <OutDir>$(ProjectDir)_bin\</OutDir>
     <IntDir>$(ProjectDir)_tmp\</IntDir>
-    <TargetName>$(ProjectName)_d</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
