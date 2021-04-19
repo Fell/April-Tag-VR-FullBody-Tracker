@@ -8,25 +8,25 @@
             "name": "Release",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/win/AprilTagTrackers/Release/AprilTagTrackers.exe",
+            "program": "${workspaceFolder}/_bin/AprilTagTrackers.exe",
             "args": [],
-            "stopAtEntry": true,
-            "cwd": "${workspaceFolder}/win/AprilTagTrackers/Release/",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/_bin/",
             "environment": [],
             "console": "newExternalWindow",
             "preLaunchTask": "Release"
         },
         {
-            "name": "RelWithDebInfo",
+            "name": "Debug",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/win/AprilTagTrackers/RelWithDebInfo/AprilTagTrackers.exe",
+            "program": "${workspaceFolder}/_bin/AprilTagTrackers_d.exe",
             "args": [],
-            "stopAtEntry": true,
-            "cwd": "${workspaceFolder}/win/AprilTagTrackers/RelWithDebInfo/",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/_bin/",
             "environment": [],
             "console": "newExternalWindow",
-            "preLaunchTask": "RelWithDebInfo"
+            "preLaunchTask": "Debug"
         }
     ]
 }

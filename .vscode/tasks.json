@@ -18,7 +18,7 @@
                 //"-t:Rebuild"
             ],
             "options": {
-                "cwd": "${workspaceRoot}/win",
+                "cwd": "${workspaceRoot}",
             },
             "presentation": {
                 "reveal": "always",
@@ -30,7 +30,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "RelWithDebInfo",
+            "label": "Debug",
             "type": "process",
             "command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
             "args": [
@@ -40,11 +40,11 @@
                 "-nologo",
                 "-m",
                 "AprilTagTrackers.sln",
-                "-p:Configuration=RelWithDebInfo",
+                "-p:Configuration=Debug",
                 //"-t:Rebuild"
             ],
             "options": {
-                "cwd": "${workspaceRoot}/win",
+                "cwd": "${workspaceRoot}",
             },
             "presentation": {
                 "reveal": "always",
