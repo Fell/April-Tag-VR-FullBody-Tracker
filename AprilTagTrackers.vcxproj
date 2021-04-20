@@ -77,6 +77,9 @@
       <AdditionalDependencies>ade.lib;advapi32.lib;apriltags.lib;comctl32.lib;comdlg32.lib;gdi32.lib;IlmImf.lib;ippicvmt.lib;ippiw.lib;ittnotify.lib;kernel32.lib;libjpeg-turbo.lib;libopenjp2.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;NuiSensorLib.lib;ole32.lib;oleacc.lib;oleaut32.lib;opencv_aruco452.lib;opencv_bgsegm452.lib;opencv_bioinspired452.lib;opencv_calib3d452.lib;opencv_ccalib452.lib;opencv_core452.lib;opencv_datasets452.lib;opencv_dnn_objdetect452.lib;opencv_dnn_superres452.lib;opencv_dnn452.lib;opencv_dpm452.lib;opencv_face452.lib;opencv_features2d452.lib;opencv_flann452.lib;opencv_fuzzy452.lib;opencv_gapi452.lib;opencv_hfs452.lib;opencv_highgui452.lib;opencv_img_hash452.lib;opencv_imgcodecs452.lib;opencv_imgproc452.lib;opencv_intensity_transform452.lib;opencv_line_descriptor452.lib;opencv_mcc452.lib;opencv_ml452.lib;opencv_objdetect452.lib;opencv_optflow452.lib;opencv_phase_unwrapping452.lib;opencv_photo452.lib;opencv_plot452.lib;opencv_quality452.lib;opencv_rapid452.lib;opencv_reg452.lib;opencv_rgbd452.lib;opencv_saliency452.lib;opencv_shape452.lib;opencv_stereo452.lib;opencv_stitching452.lib;opencv_structured_light452.lib;opencv_superres452.lib;opencv_surface_matching452.lib;opencv_text452.lib;opencv_tracking452.lib;opencv_video452.lib;opencv_videoio452.lib;opencv_videostab452.lib;opencv_wechat_qrcode452.lib;opencv_xfeatures2d452.lib;opencv_ximgproc452.lib;opencv_xobjdetect452.lib;opencv_xphoto452.lib;quirc.lib;rpcrt4.lib;shell32.lib;shlwapi.lib;user32.lib;uuid.lib;uxtheme.lib;version.lib;wininet.lib;winmm.lib;winspool.lib;ws2_32.lib;wsock32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ignore:4286 %(AdditionalOptions)</AdditionalOptions>
     </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -106,6 +109,9 @@
       <AdditionalDependencies>ade.lib;advapi32.lib;apriltags.lib;comctl32.lib;comdlg32.lib;gdi32.lib;IlmImf.lib;ippicvmt.lib;ippiw.lib;ittnotify.lib;kernel32.lib;libjpeg-turbo.lib;libopenjp2.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;NuiSensorLib.lib;ole32.lib;oleacc.lib;oleaut32.lib;opencv_aruco452.lib;opencv_bgsegm452.lib;opencv_bioinspired452.lib;opencv_calib3d452.lib;opencv_ccalib452.lib;opencv_core452.lib;opencv_datasets452.lib;opencv_dnn_objdetect452.lib;opencv_dnn_superres452.lib;opencv_dnn452.lib;opencv_dpm452.lib;opencv_face452.lib;opencv_features2d452.lib;opencv_flann452.lib;opencv_fuzzy452.lib;opencv_gapi452.lib;opencv_hfs452.lib;opencv_highgui452.lib;opencv_img_hash452.lib;opencv_imgcodecs452.lib;opencv_imgproc452.lib;opencv_intensity_transform452.lib;opencv_line_descriptor452.lib;opencv_mcc452.lib;opencv_ml452.lib;opencv_objdetect452.lib;opencv_optflow452.lib;opencv_phase_unwrapping452.lib;opencv_photo452.lib;opencv_plot452.lib;opencv_quality452.lib;opencv_rapid452.lib;opencv_reg452.lib;opencv_rgbd452.lib;opencv_saliency452.lib;opencv_shape452.lib;opencv_stereo452.lib;opencv_stitching452.lib;opencv_structured_light452.lib;opencv_superres452.lib;opencv_surface_matching452.lib;opencv_text452.lib;opencv_tracking452.lib;opencv_video452.lib;opencv_videoio452.lib;opencv_videostab452.lib;opencv_wechat_qrcode452.lib;opencv_xfeatures2d452.lib;opencv_ximgproc452.lib;opencv_xobjdetect452.lib;opencv_xphoto452.lib;quirc.lib;rpcrt4.lib;shell32.lib;shlwapi.lib;user32.lib;uuid.lib;uxtheme.lib;version.lib;wininet.lib;winmm.lib;winspool.lib;ws2_32.lib;wsock32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ignore:4286 %(AdditionalOptions)</AdditionalOptions>
     </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AprilTagTrackers\Connection.cpp" />

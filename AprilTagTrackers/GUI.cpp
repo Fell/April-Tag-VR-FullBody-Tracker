@@ -17,9 +17,13 @@ void addTextWithTooltip(wxWindow* parent, wxSizer* sizer, const wxString& label,
 } // namespace
 
 GUI::GUI(const wxString& title, Parameters * params)
-    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(350, 800))
+    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition)
 {
-    SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 16, 16));
+    SetClientSize(FromDIP(wxSize(350, 800)));
+    if(GetDPIScaleFactor() > 1)
+        SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 32, 32));
+    else
+        SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 16, 16));
 
     wxNotebook* nb = new wxNotebook(this, -1, wxPoint(-1, -1),
         wxSize(-1, -1), wxNB_TOP);
