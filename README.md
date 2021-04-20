@@ -1,3 +1,5 @@
+![AprilTagTrackers](images/icon256.png)
+
 # April-Tag-VR-FullBody-Tracker
 Full-body tracking in VR using AprilTag markers.
 
