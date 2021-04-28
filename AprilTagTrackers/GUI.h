@@ -4,6 +4,9 @@
 #include <wx/wx.h>
 #include <wx/notebook.h>
 #include <wx/icon.h>
+#include <wx/richtooltip.h>
+#include <wx/tglbtn.h>
+#include <wx/gbsizer.h>
 #pragma warning(pop)
 
 #include "Parameters.h"
@@ -56,6 +59,12 @@ public:
     CameraPage(wxNotebook* parent, GUI* parentGUI);
 };
 
+class TestPage : public wxPanel
+{
+public:
+    TestPage(wxNotebook* parent);
+};
+
 class ParamsPage : public wxPanel
 {
 public:
@@ -67,11 +76,14 @@ private:
     Parameters* parameters;
     wxTextCtrl* cameraAddrField;
     wxTextCtrl* cameraApiField;
+    wxChoice* _cameraApiChoice;
     wxTextCtrl* camFpsField;
     wxTextCtrl* camWidthField;
     wxTextCtrl* camHeightField;
     wxTextCtrl* camLatencyField;
     wxTextCtrl* trackerNumField;
+    wxTextCtrl* trackerOffsetField;
+    wxTextCtrl* detectionThreadsField;
     wxTextCtrl* markerSizeField;
     wxTextCtrl* prevValuesField;
     wxTextCtrl* quadDecimateField;

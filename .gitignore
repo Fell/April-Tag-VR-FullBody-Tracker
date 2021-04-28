@@ -5,6 +5,7 @@
 
 _bin/
 _tmp/
+params.yml
 
 # User-specific files
 *.rsuser

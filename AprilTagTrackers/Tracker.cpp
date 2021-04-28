@@ -1,6 +1,4 @@
 ﻿#define KINECT
-constexpr int OFFSET = 3;
-constexpr int THREADS = 24;
 
 #include <iostream>
 #include <mutex>
@@ -272,18 +270,20 @@ void Tracker::StartCamera(std::string id, int apiPreference)
         wxMessageDialog dial(NULL,
             wxT("Could not start camera. Make sure you entered the correct ID or IP of your camera in the params.\n"
             "For USB cameras, it will be a number, usually 0,1,2... try a few until it works.\n"
-            "For IP webcam, the address will be in the format http://'ip - here':8080/video"), wxT("Error"), wxOK | wxICON_ERROR);
+            "For IP webcam, the address will be in the format http://'ip - here':8080/video\n"
+            "For Kinect V2 Sensor, enter -1."), wxT("Error"), wxOK | wxICON_ERROR);
         dial.ShowModal();
         return;
     }
     //Sleep(1000);
     cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('m', 'j', 'p', 'g'));
     cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('M', 'J', 'P', 'G'));
+    if(parameters->camFps != 0)
+        cap.set(cv::CAP_PROP_FPS, parameters->camFps);
     if(parameters->camWidth != 0)
         cap.set(cv::CAP_PROP_FRAME_WIDTH, parameters->camWidth);
     if (parameters->camHeight != 0)
         cap.set(cv::CAP_PROP_FRAME_HEIGHT, parameters->camHeight);
-    cap.set(cv::CAP_PROP_FPS, parameters->camFps);
     if(parameters->cameraSettings)
         cap.set(cv::CAP_PROP_SETTINGS, 1);
     if (parameters->settingsParameters)
@@ -983,7 +983,7 @@ void Tracker::CalibrateTracker()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
-    td->nthreads = THREADS;
+    td->nthreads = parameters->detectionThreads;
     apriltag_family_t* tf;
     if(!parameters->circularMarkers)
         tf = tagStandard41h12_create();
@@ -994,7 +994,7 @@ void Tracker::CalibrateTracker()
 
     int markersPerTracker = 45;
     int trackerNum = parameters->trackerNum;
-    int offset = OFFSET;
+    int offset = parameters->trackerOffset;
 
     std::vector<cv::Vec3d> boardRvec, boardTvec;
 
@@ -1202,7 +1202,7 @@ void Tracker::MainLoop()
     std::vector<double> prevLocValuesX;
 
     int trackerNum = parameters->trackerNum;
-    int offset = OFFSET;
+    int offset = parameters->trackerOffset;
     int numOfPrevValues = parameters->numOfPrevValues;
 
     for (int k = 0; k < trackerNum; k++)
@@ -1243,7 +1243,7 @@ void Tracker::MainLoop()
 
     apriltag_detector_t* td = apriltag_detector_create();
     td->quad_decimate = parameters->quadDecimate;
-    td->nthreads = THREADS;
+    td->nthreads = parameters->detectionThreads;
     apriltag_family_t* tf;
     if (!parameters->circularMarkers)
         tf = tagStandard41h12_create();

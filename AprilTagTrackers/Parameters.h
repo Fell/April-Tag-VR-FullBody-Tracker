@@ -20,6 +20,8 @@ public:
     std::vector<std::vector<int>> allCharucoIds;
     std::vector<cv::Ptr<cv::aruco::Board>> trackers;
     int trackerNum = 1;
+    int trackerOffset = 0;
+    int detectionThreads = 1;
     double markerSize = 0.05;
     int numOfPrevValues = 5;
     double quadDecimate = 1;

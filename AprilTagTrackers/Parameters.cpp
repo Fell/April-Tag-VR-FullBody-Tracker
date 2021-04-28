@@ -23,6 +23,8 @@ void Parameters::Load()
         fs["allCharucoCorners"] >> allCharucoCorners;
         fs["allCharucoIds"] >> allCharucoIds;
         fs["trackerNum"] >> trackerNum;
+        fs["trackerOffset"] >> trackerOffset;
+        fs["detectionThreads"] >> detectionThreads;
         fs["markerSize"] >> markerSize;
         fs["numOfPrevValues"] >> numOfPrevValues;
         fs["quadDecimate"] >> quadDecimate;
@@ -106,6 +108,8 @@ void Parameters::Save()
     fs << "allCharucoCorners" << allCharucoCorners;
     fs << "allCharucoIds" << allCharucoIds;
     fs << "trackerNum" << trackerNum;
+    fs << "trackerOffset" << trackerOffset;
+    fs << "detectionThreads" << detectionThreads;
     fs << "markerSize" << markerSize;
     fs << "numOfPrevValues" << numOfPrevValues;
     fs << "quadDecimate" << quadDecimate;

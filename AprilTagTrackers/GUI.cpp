@@ -10,8 +10,12 @@ namespace {
 void addTextWithTooltip(wxWindow* parent, wxSizer* sizer, const wxString& label, const wxString& tooltip)
 {
     wxStaticText* textObject = new wxStaticText(parent, -1, label);
+    //wxRichToolTip tip(label, tooltip);
+    //tip.SetIcon(wxICON_WARNING);
+    //tip.ShowFor(textObject);
+    //textObject->SetToolTip(tooltip);
     textObject->SetToolTip(tooltip);
-    sizer->Add(textObject);
+    sizer->Add(textObject, 0, wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT, 0);
 }
 
 } // namespace
@@ -33,6 +37,7 @@ GUI::GUI(const wxString& title, Parameters * params)
 
     nb->AddPage(panel, "Camera");
     nb->AddPage(panel2, "Params");
+    //nb->AddPage(new TestPage(nb), "Test");
 
     Centre();
 }
@@ -74,10 +79,6 @@ CameraPage::CameraPage(wxNotebook* parent,GUI* parentGUI)
     //fgs->Add(parentGUI->cb2);
     //fgs->Add(new wxStaticText(this, -1, wxT("")), 0, wxEXPAND);
     fgs->Add(parentGUI->cb3);
-    fgs->Add(new wxStaticText(this, -1, wxT("Fell Edition\n24 Threads\nOffset 3\n50% Resize")), 0, wxEXPAND);
-    
-    auto* cb = new wxChoice(this, -1);
-    fgs->Add(cb, 0, wxSTRETCH_NOT);
 
     hbox->Add(fgs, 1, wxALL | wxEXPAND, 15);
 
@@ -118,6 +119,8 @@ ParamsPage::ParamsPage(wxNotebook* parent, Parameters* params)
     , cameraAddrField(new wxTextCtrl(this, -1, parameters->cameraAddr))
     , cameraApiField(new wxTextCtrl(this, -1, std::to_string(parameters->cameraApiPreference)))
     , trackerNumField(new wxTextCtrl(this, -1, std::to_string(parameters->trackerNum)))
+    , trackerOffsetField(new wxTextCtrl(this, -1, std::to_string(parameters->trackerOffset)))
+    , detectionThreadsField(new wxTextCtrl(this, -1, std::to_string(parameters->detectionThreads)))
     , markerSizeField(new wxTextCtrl(this, -1, std::to_string(parameters->markerSize*100)))
     , prevValuesField(new wxTextCtrl(this, -1, std::to_string(parameters->numOfPrevValues)))
     , smoothingField(new wxTextCtrl(this, -1, std::to_string(parameters->smoothingFactor)))
@@ -155,6 +158,16 @@ ParamsPage::ParamsPage(wxNotebook* parent, Parameters* params)
 
     wxFlexGridSizer* fgs = new wxFlexGridSizer(2, 10, 10);
 
+    //_cameraApiChoice = new wxChoice(this, -1);
+    //_cameraApiChoice->Append("Auto", (void*)nullptr);
+    //for (const auto backend : cv::videoio_registry::getCameraBackends())
+    //    _cameraApiChoice->Append(cv::videoio_registry::getBackendName(backend), (void*)(int(backend)));
+    //
+    //for (const auto backend : cv::videoio_registry::getStreamBackends())
+    //    _cameraApiChoice->Append(cv::videoio_registry::getBackendName(backend), (void*)(int(backend)));
+    
+    
+
     static const std::string cameraApiDescriptions = []()
     {
         std::stringstream description;
@@ -171,12 +184,17 @@ ParamsPage::ParamsPage(wxNotebook* parent, Parameters* params)
         return description.str();
     }();
 
-    addTextWithTooltip(this, fgs, "Ip or ID of camera", "Will be a number 0-10 for USB cameras and \nhttp://'ip - here':8080/video for IP webcam");
+    addTextWithTooltip(this, fgs, "Ip or ID of camera", "Will be a number 0-10 for USB cameras and \nhttp://'ip - here':8080/video for IP webcam or \n-1 for Kinect V2 Sensor");
     fgs->Add(cameraAddrField);
     addTextWithTooltip(this, fgs, "Camera API preference", cameraApiDescriptions);
     fgs->Add(cameraApiField);
+    //fgs->Add(_cameraApiChoice);
     addTextWithTooltip(this, fgs, "Number of trackers", "Set to 3 for full body. 2 will not work in vrchat!");
     fgs->Add(trackerNumField);
+    addTextWithTooltip(this, fgs, "Tracker offset", "...");
+    fgs->Add(trackerOffsetField);
+    addTextWithTooltip(this, fgs, "Detection Threads", "...");
+    fgs->Add(detectionThreadsField);
     addTextWithTooltip(this, fgs, "Size of markers in cm", "Measure the white square on markers and input it here");
     fgs->Add(markerSizeField);
     addTextWithTooltip(this, fgs, "Rotate camera clockwise", wxString::FromUTF8("Rotate the camera. Use both to rotate image 180°"));
@@ -234,8 +252,6 @@ ParamsPage::ParamsPage(wxNotebook* parent, Parameters* params)
         "Keep other parameters as default unless you know what you are doing.");
     fgs->Add(chessboardCalibField);
 
-    fgs->Add(new wxStaticText(this, -1, wxT("")));
-    fgs->Add(new wxStaticText(this, -1, wxT("")));
     fgs->Add(new wxStaticText(this, -1, wxT("Hover over text for help!")));
     wxButton* btn1 = new wxButton(this, SAVE_BUTTON, "Save");
     //wxButton* btn2 = new wxButton(this, HELP_BUTTON, "Help");
@@ -279,6 +295,8 @@ void ParamsPage::SaveParams(wxCommandEvent& event)
         parameters->cameraAddr = cameraAddrField->GetValue().ToStdString();
         parameters->cameraApiPreference = std::stoi(cameraApiField->GetValue().ToStdString());
         parameters->trackerNum = std::stoi(trackerNumField->GetValue().ToStdString());
+        parameters->trackerOffset = std::stoi(trackerOffsetField->GetValue().ToStdString());
+        parameters->detectionThreads = std::stoi(detectionThreadsField->GetValue().ToStdString());
         parameters->markerSize = std::stod(markerSizeField->GetValue().ToStdString()) / 100;
         parameters->numOfPrevValues = std::stoi(prevValuesField->GetValue().ToStdString());
         parameters->quadDecimate = std::stod(quadDecimateField->GetValue().ToStdString());
@@ -395,4 +413,57 @@ void ValueInput::ButtonPressed(wxCommandEvent &evt)
         return;
     }
     input->ChangeValue(std::to_string(value));
+}
+
+TestPage::TestPage(wxNotebook* parent) : wxPanel(parent)
+{
+    auto* sizer = new wxBoxSizer(wxVERTICAL);
+
+    // ---
+
+    wxStaticBoxSizer* sbCamera;
+	sbCamera = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Camera") ), wxVERTICAL );
+
+	wxGridBagSizer* gbCamera;
+	gbCamera = new wxGridBagSizer( 0, 0 );
+	gbCamera->SetFlexibleDirection( wxBOTH );
+	gbCamera->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
+
+	auto* m_staticText1 = new wxStaticText( sbCamera->GetStaticBox(), wxID_ANY, wxT("Capture Device"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText1->Wrap( -1 );
+	gbCamera->Add( m_staticText1, wxGBPosition( 0, 0 ), wxGBSpan( 1, 1 ), wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT, 5 );
+
+	wxString m_choice1Choices[] = { wxT("Logitech C922") };
+	int m_choice1NChoices = sizeof( m_choice1Choices ) / sizeof( wxString );
+	auto* m_choice1 = new wxChoice( sbCamera->GetStaticBox(), wxID_ANY, wxDefaultPosition, wxDefaultSize, m_choice1NChoices, m_choice1Choices, 0 );
+	m_choice1->SetSelection( 0 );
+	gbCamera->Add( m_choice1, wxGBPosition( 0, 1 ), wxGBSpan( 1, 1 ), wxALL, 5 );
+
+
+	sbCamera->Add( gbCamera, 1, wxEXPAND, 5 );
+
+
+	sizer->Add( sbCamera, 1, wxALL|wxEXPAND, 5 );
+
+	wxStaticBoxSizer* sbTracking;
+	sbTracking = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Tracking") ), wxVERTICAL );
+
+
+	sizer->Add( sbTracking, 1, wxALL|wxEXPAND, 5 );
+
+
+    // ---
+
+    this->SetSizer(sizer);
+    this->Layout();
+    // wxIcon icon0(wxIconLocation(R"(C:\Windows\System32\shell32.dll)", -16810));
+    // sizer->Add(new wxStaticBitmap(box, -1, wxBitmap(icon0)));
+    
+    // wxIcon icon1(wxIconLocation(R"(C:\Windows\System32\shell32.dll)", -240));
+    // auto* image1 = new wxStaticBitmap(box, -1, wxBitmap(icon1));
+
+    // wxIcon icon2(wxIconLocation(R"(C:\Windows\System32\shell32.dll)", -16710));
+    // auto* image2 = new wxStaticBitmap(box, -1, wxBitmap(icon2));
+
+    //auto* toggle = new wxToggleButton(box, -1, "1. Start Camera");
 }
