@@ -28,6 +28,7 @@ GUI::GUI(const wxString& title, Parameters * params)
         SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 32, 32));
     else
         SetIcon(wxIcon(wxT("IDI_ICON1"), wxBITMAP_TYPE_ICO_RESOURCE, 16, 16));
+    
 
     wxNotebook* nb = new wxNotebook(this, -1, wxPoint(-1, -1),
         wxSize(-1, -1), wxNB_TOP);
@@ -39,7 +40,7 @@ GUI::GUI(const wxString& title, Parameters * params)
     nb->AddPage(panel2, "Params");
     //nb->AddPage(new TestPage(nb), "Test");
 
-    Centre();
+    //Centre();
 }
 
 CameraPage::CameraPage(wxNotebook* parent,GUI* parentGUI)
@@ -94,7 +95,7 @@ CameraPage::CameraPage(wxNotebook* parent,GUI* parentGUI)
     parentGUI->manualCalibB = new ValueInput(this, wxString::FromUTF8("B(°):"), 0);
     parentGUI->manualCalibC = new ValueInput(this, wxString::FromUTF8("C(°):"), 0);
 
-    parentGUI->posHbox->Add(new wxStaticText(this, -1, wxT("Disable SteamVR home to see the camera.\nUse the values bellow to align the virtual camera with \nyour IRL one. Use your controllers as references.\nUncheck Calibration mode when done!")), 0, wxEXPAND);
+    parentGUI->posHbox->Add(new wxStaticText(this, -1, wxT("Disable SteamVR home to see the camera.\nUse the values bellow to align the virtual camera with \nyour IRL one. Use your controllers as re rences.\nUncheck Calibration mode when done!")), 0, wxEXPAND);
     parentGUI->posHbox->Add(parentGUI->manualCalibX, 1, wxALL | wxEXPAND, 5);
     parentGUI->posHbox->Add(parentGUI->manualCalibY, 1, wxALL | wxEXPAND, 5);
     parentGUI->posHbox->Add(parentGUI->manualCalibZ, 1, wxALL | wxEXPAND, 5);

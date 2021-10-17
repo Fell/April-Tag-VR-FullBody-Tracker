@@ -680,8 +680,8 @@ void Tracker::CalibrateCameraCharuco()
             allCharucoCorners,
             allCharucoIds);
 
-        cv::resize(drawImg, outImg, cv::Size(960, 540));
-        cv::imshow("out", outImg);
+        //cv::resize(drawImg, outImg, cv::Size(960, 540));
+        cv::imshow("out", drawImg);
         char key = (char)cv::waitKey(1);
 
         framesSinceLast++;
@@ -715,8 +715,8 @@ void Tracker::CalibrateCameraCharuco()
                     allCharucoIds.push_back(charucoIds);
                     picsTaken++;
 
-                    cv::resize(drawImg, outImg, cv::Size(960, 540));
-                    cv::imshow("out", outImg);
+                    //cv::resize(drawImg, outImg, cv::Size(960, 540));
+                    cv::imshow("out", drawImg);
                     char key = (char)cv::waitKey(1);
 
                     if (picsTaken >= 3)
@@ -830,8 +830,8 @@ void Tracker::CalibrateCamera()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(image, drawImg, cv::Size(960,540));
-        cv::imshow("out", drawImg);
+        //cv::resize(image, drawImg, cv::Size(960,540));
+        cv::imshow("out", image);
         char key = (char)cv::waitKey(1);
         framesSinceLast++;
         if (key != -1 || framesSinceLast > 50)
@@ -854,8 +854,8 @@ void Tracker::CalibrateCamera()
                 imgpoints.push_back(corner_pts);
             }
 
-            cv::resize(image, drawImg, cv::Size(960, 540));
-            cv::imshow("out", drawImg);
+            //cv::resize(image, drawImg, cv::Size(960, 540));
+            cv::imshow("out", image);
             cv::waitKey(1000);
         }
     }
@@ -1000,16 +1000,21 @@ void Tracker::CalibrateTracker()
 
     for (int i = 0; i < trackerNum; i++)
     {
-        std::vector<int > curBoardIds;
+        std::vector<int> curBoardIds;
         std::vector < std::vector<cv::Point3f >> curBoardCorners;
+        
         curBoardIds.push_back((i+offset) * markersPerTracker);
         curBoardCorners.push_back(modelMarker);
+        
         boardIds.push_back(curBoardIds);
         boardCorners.push_back(curBoardCorners);
         boardFound.push_back(false);
         boardRvec.push_back(cv::Vec3d());
         boardTvec.push_back(cv::Vec3d());
     }
+
+    boardIds = {{137}, {180}, {225}};
+
     cv::Mat image;
     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50);
 
@@ -1158,8 +1163,8 @@ void Tracker::CalibrateTracker()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(image, drawImg, cv::Size(960, 540));
-        cv::imshow("out", drawImg);
+        //cv::resize(image, drawImg, cv::Size(960, 540));
+        cv::imshow("out", image);
         cv::waitKey(1);
     }
     trackers.clear();
@@ -1266,16 +1271,18 @@ void Tracker::MainLoop()
 
     connection->SendStation(0, a, b, c, stationQ.w, stationQ.x, stationQ.y, stationQ.z);
 
+    clock_t start, end;
+    double frameTime = 0.0;
+
     while(mainThreadRunning && cameraRunning)
     {
+        //for timing our detection
+        start = clock();
+
         CopyFreshCameraImageTo(image);
 
         image.copyTo(drawImg);
         cv::cvtColor(image, image, cv::COLOR_BGR2GRAY);
-
-        clock_t start, end;
-        //for timing our detection
-        start = clock();
 
         bool circularWindow = parameters->circularWindow;
 
@@ -1385,6 +1392,7 @@ void Tracker::MainLoop()
                 }
                 maskCenters[tracker] = centers[i];
             }
+
         }
         for (int i = 0; i < trackerNum; ++i) {
 
@@ -1511,11 +1519,11 @@ void Tracker::MainLoop()
             prevRot[i] = q;
             prevLoc[i] = cv::Vec3d(a, b, c);
 
-            cv::putText(drawImg, std::to_string(q.w) + ", " + std::to_string(q.x) + ", " + std::to_string(q.y) + ", " + std::to_string(q.z), cv::Point(10, 60), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
-            cv::putText(drawImg, std::to_string(boardRvec[i][0]) + ", " + std::to_string(boardRvec[i][1]) + ", " + std::to_string(boardRvec[i][2]), cv::Point(10, 80), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+            //cv::putText(drawImg, std::to_string(q.w) + ", " + std::to_string(q.x) + ", " + std::to_string(q.y) + ", " + std::to_string(q.z), cv::Point(10, 60), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+            //cv::putText(drawImg, std::to_string(boardRvec[i][0]) + ", " + std::to_string(boardRvec[i][1]) + ", " + std::to_string(boardRvec[i][2]), cv::Point(10, 80), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
 
-            end = clock();
-            double frameTime = double(end - last_frame_time) / double(CLOCKS_PER_SEC);
+            //end = clock();
+            //double frameTime = double(end - last_frame_time) / double(CLOCKS_PER_SEC);
 
 
             //send all the values
@@ -1528,9 +1536,9 @@ void Tracker::MainLoop()
             cv::aruco::drawDetectedMarkers(drawImg, corners, ids, cv::Scalar(255,255,255));
 
         end = clock();
-        double frameTime = double(end - start) / double(CLOCKS_PER_SEC);
+        frameTime = double(end - start) / double(CLOCKS_PER_SEC);
 
-        int cols, rows;
+        int cols, rows; 
         if (image.cols > image.rows)
         {
             cols = image.cols * drawImgSize / image.rows;
@@ -1541,9 +1549,12 @@ void Tracker::MainLoop()
             cols = drawImgSize;
             rows = image.rows * drawImgSize / image.cols;
         }
-        cv::resize(drawImg, drawImg, cv::Size(960, 540));
-        cv::putText(drawImg, std::to_string(1/frameTime).substr(0,5), cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
+        //cv::resize(drawImg, drawImg, cv::Size(1777, 1000));
+        cv::putText(drawImg, "FPS: " + std::to_string(1/frameTime).substr(0,5), cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(255, 255, 255));
         cv::imshow("out", drawImg);
+        //auto p = gui->GetPosition();
+        //auto s = gui->GetClientSize();
+        //cv::moveWindow("out", p.x + s.x, p.y );
         cv::waitKey(1);
         //time of marker detection
     }
